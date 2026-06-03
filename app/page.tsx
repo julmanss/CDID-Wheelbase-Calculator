@@ -335,7 +335,7 @@ export default function WheelbaseCalculator() {
                         letterSpacing: "-1px",
                       }}
                     >
-                      {result.toFixed(2)}
+                      {result.toFixed(3)}
                     </span>
                     <span
                       style={{
@@ -379,7 +379,7 @@ export default function WheelbaseCalculator() {
                     letterSpacing: "0.5px",
                   }}
                 >
-                  {numVal.toLocaleString()} mm → {result.toFixed(2)} studs
+                  {numVal.toLocaleString()} mm → {result.toFixed(3)} studs
                 </div>
               )}
             </div>
