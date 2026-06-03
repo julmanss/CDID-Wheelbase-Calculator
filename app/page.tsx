@@ -9,7 +9,7 @@ export default function WheelbaseCalculator() {
   const numVal = Number(wheelbase);
   const result =
     wheelbase && !isNaN(numVal) && numVal > 0
-      ? (9.85 / 2.8) * numVal
+      ? (9.85 / 2800) * numVal
       : null;
 
   return (
@@ -235,7 +235,7 @@ export default function WheelbaseCalculator() {
               }}
             >
               {[
-                { label: "Formula", value: "(9.85 ÷ 2.8) × WB", mono: true },
+                { label: "Formula", value: "(9.85 ÷ 2800) × WB", mono: true },
                 { label: "Measure", value: "FL→RL  /  FR→RR", mono: true },
                 { label: "Input Unit", value: "Millimeters", mono: false },
                 { label: "Output Unit", value: "Roblox Studs", mono: false },
